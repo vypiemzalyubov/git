@@ -1,4 +1,4 @@
-1. На локальном репозитории сделать ветки для:  
+1. ГЌГ  Г«Г®ГЄГ Г«ГјГ­Г®Г¬ Г°ГҐГЇГ®Г§ГЁГІГ®Г°ГЁГЁ Г±Г¤ГҐГ«Г ГІГј ГўГҐГІГЄГЁ Г¤Г«Гї:  
 - Postman       				 git branch Postman
 - Jmeter					 git branch Jmeter
 - CheckLists 					 git branch CheckLists
@@ -6,8 +6,8 @@
 - SQL						 git branch SQL
 - Charles					 git branch Charles
 - Mobile testing				 git branch Mobile_testing
-2. Запушить все ветки на внешний репозиторий: git push origin --all
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта:	git checkout Bag_Reports
+2. Г‡Г ГЇГіГёГЁГІГј ГўГ±ГҐ ГўГҐГІГЄГЁ Г­Г  ГўГ­ГҐГёГ­ГЁГ© Г°ГҐГЇГ®Г§ГЁГІГ®Г°ГЁГ©: git push origin --all
+3. Г‚ ГўГҐГІГЄГҐ Bag Reports Г±Г¤ГҐГ«Г ГІГј ГІГҐГЄГ±ГІГ®ГўГ»Г© Г¤Г®ГЄГіГ¬ГҐГ­ГІ Г±Г® Г±ГІГ°ГіГЄГІГіГ°Г®Г© ГЎГ ГЈ Г°ГҐГЇГ®Г°ГІГ :	git checkout Bag_Reports
 										vim report.txt 
 												id
 												summary
@@ -20,12 +20,12 @@
 												attachments
 
 										git add .
-										git commit -m "add reports.txt" (можно одной командой git commit -am "add reports.txt")
-4. Запушить структуру багрепорта на внешний репозиторий: git push 
-5. Вмержить ветку Bag Reports в Main:   git checkout main
+										git commit -m "add reports.txt" (Г¬Г®Г¦Г­Г® Г®Г¤Г­Г®Г© ГЄГ®Г¬Г Г­Г¤Г®Г© git commit -am "add reports.txt")
+4. Г‡Г ГЇГіГёГЁГІГј Г±ГІГ°ГіГЄГІГіГ°Гі ГЎГ ГЈГ°ГҐГЇГ®Г°ГІГ  Г­Г  ГўГ­ГҐГёГ­ГЁГ© Г°ГҐГЇГ®Г§ГЁГІГ®Г°ГЁГ©: git push 
+5. Г‚Г¬ГҐГ°Г¦ГЁГІГј ГўГҐГІГЄГі Bag Reports Гў Main:   git checkout main
 					git merge Bag_Reports -m "merge reports.txt"
-6. Запушить main на внешний репозиторий: git push
-7. В ветке CheckLists набросать структуру чек листа:  git checkout CheckLists
+6. Г‡Г ГЇГіГёГЁГІГј main Г­Г  ГўГ­ГҐГёГ­ГЁГ© Г°ГҐГЇГ®Г§ГЁГІГ®Г°ГЁГ©: git push
+7. Г‚ ГўГҐГІГЄГҐ CheckLists Г­Г ГЎГ°Г®Г±Г ГІГј Г±ГІГ°ГіГЄГІГіГ°Гі Г·ГҐГЄ Г«ГЁГ±ГІГ :  git checkout CheckLists
 						      vim checklist.txt
 								id
 								testing
@@ -33,13 +33,14 @@
 								actual result
 					
 						      git add .
-						      git commit -m "add checklist.txt" (можно одной командой git commit -am "add checklist.txt")
-8. Запушить структуру на внешний репозиторий: git push
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main:  Contribute
+						      git commit -m "add checklist.txt" (Г¬Г®Г¦Г­Г® Г®Г¤Г­Г®Г© ГЄГ®Г¬Г Г­Г¤Г®Г© git commit -am "add checklist.txt")
+8. Г‡Г ГЇГіГёГЁГІГј Г±ГІГ°ГіГЄГІГіГ°Гі Г­Г  ГўГ­ГҐГёГ­ГЁГ© Г°ГҐГЇГ®Г§ГЁГІГ®Г°ГЁГ©: git push
+9. ГЌГ  ГўГ­ГҐГёГ­ГҐГ¬ Г°ГҐГЇГ®Г§ГЁГІГ®Г°ГЁГЁ Г±Г¤ГҐГ«Г ГІГј Pull Request ГўГҐГІГЄГЁ CheckLists Гў main:  Contribute
 									 Open pull request "add checklist.txt"
 									 Create pull request
 									 Merge pull requesrt "add checklist.txt"
-10. Синхронизировать Внешнюю и Локальную ветки Main:  git checkout main
+10. Г‘ГЁГ­ГµГ°Г®Г­ГЁГ§ГЁГ°Г®ГўГ ГІГј Г‚Г­ГҐГёГ­ГѕГѕ ГЁ Г‹Г®ГЄГ Г«ГјГ­ГіГѕ ГўГҐГІГЄГЁ Main:  git checkout main
 						      git fetch
 						      git pull
 						      git push
+						      
