@@ -1,0 +1,9 @@
+id
+summary
+description
+str
+AR
+ER
+severity
+priority
+attachments
