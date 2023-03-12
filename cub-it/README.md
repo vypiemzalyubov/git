@@ -1,1 +1,1 @@
-## cub-it.org
+## cub-it
