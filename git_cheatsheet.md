@@ -87,4 +87,4 @@ git config --global user.email 'email_юзера'   //указать email юз�
 
 `git rm имя_файла` – удаление файла (rm + git add)
 
-More information: [Flight rules for Git](https://github.com/k88hudson/git-flight-rules/blob/master/README_ru.md)
+**More information:** [Flight rules for Git](https://github.com/k88hudson/git-flight-rules/blob/master/README_ru.md)
