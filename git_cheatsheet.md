@@ -87,4 +87,22 @@ git config --global user.email 'email_юзера'   //указать email юз�
 
 `git rm имя_файла` – удаление файла (rm + git add)
 
+```bash
+# Сквош коммитов
+
+git cherry -v master
+git cherry -v master | wc -l
+
+git rebase -i HEAD~2
+
+pick 38ffb75   # коммит, который нужно оставить
+squash c2eb1cf
+squash 514fa9b
+squash c4c96e6
+
+git log
+
+git push --force
+```
+
 **More information:** [Flight rules for Git](https://github.com/k88hudson/git-flight-rules/blob/master/README_ru.md)
