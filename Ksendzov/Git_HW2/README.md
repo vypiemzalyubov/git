@@ -55,12 +55,12 @@ git commit -m "add reports.txt" (можно одной командой git comm
 **4. Запушить структуру багрепорта на внешний репозиторий:** 
 ```bash
 git push
-``
+```
 **5. Вмержить ветку Bag Reports в Main:**   
 ```bash
 git checkout main
 git merge Bag_Reports -m "merge reports.txt"
-``					    
+```					    
 **6. Запушить main на внешний репозиторий:** 
 ```bash
 git push
