@@ -1,32 +1,26 @@
 # Git HW2
 
 **1. На локальном репозитории сделать ветки для:**
-- **Postman:**
 ```bash
+# Postman:
 git branch Postman
-```
-- **Jmeter:**
-```bash
+
+# Jmeter:
 git branch Jmeter
-```
-- **CheckLists:**
-```bash
+
+# CheckLists:
 git branch CheckLists
-```
-- **Bag Reports:**
-```bash
+
+# Bag Reports:
 git branch Bag_Reports
-```
-- **SQL:**
-```bash
+
+# SQL:
 git branch SQL
-```
-- **Charles:**
-```bash
+
+# Charles:
 git branch Charles
-```
-- **Mobile testing:**
-```bash
+
+# Mobile testing:
 git branch Mobile_testing
 ```
 **2. Запушить все ветки на внешний репозиторий:** 
