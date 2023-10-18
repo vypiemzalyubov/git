@@ -5,9 +5,9 @@
 </div>
 
 - [**Cubit**](https://github.com/vypiemzalyubov/git/tree/main/Cubit)
-  - [**Git Basics / Основы Git**](https://github.com/vypiemzalyubov/git/tree/main/Cubit/Git%20Basics)
+  - [**Git Basics | Основы Git**](https://github.com/vypiemzalyubov/git/tree/main/Cubit/Git%20Basics)
 - [**Hexlet**](https://github.com/vypiemzalyubov/git/tree/main/Hexlet)
-  - [**Introduction to Git / Введение в Git**](https://github.com/vypiemzalyubov/git/tree/main/Hexlet/Introduction%20to%20Git)
+  - [**Introduction to Git | Введение в Git**](https://github.com/vypiemzalyubov/git/tree/main/Hexlet/Introduction%20to%20Git)
 - [**Ksendzov**](https://github.com/vypiemzalyubov/git/tree/main/Ksendzov)
   - [**Git_HW1**](https://github.com/vypiemzalyubov/git/tree/main/Ksendzov/Git_HW1)
   - [**Git_HW2**](https://github.com/vypiemzalyubov/git/tree/main/Ksendzov/Git_HW2)
