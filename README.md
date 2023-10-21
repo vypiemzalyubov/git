@@ -1,7 +1,8 @@
-# Git
+# Git | Bash
 
 <div id="header" align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png" width="100"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/1200px-Bash_Logo_Colored.svg.png" width="60"/>
 </div>
 
 - [**Cubit**](https://github.com/vypiemzalyubov/git/tree/main/Cubit)
