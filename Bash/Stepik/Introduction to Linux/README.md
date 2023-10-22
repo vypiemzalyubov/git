@@ -8,6 +8,6 @@
 
 ---
 
-- [**Введение**](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/1.%20Introduction.md)
-- [**Работа на сервере**](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/2.%20Working%20on%20the%20server.md)
-- [**Продвинутые темы**](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics.md)
+- [**Введение**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Stepik/Introduction%20to%20Linux/1.%20Introduction)
+- [**Работа на сервере**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Stepik/Introduction%20to%20Linux/2.%20Working%20on%20the%20server)
+- [**Продвинутые темы**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics)
