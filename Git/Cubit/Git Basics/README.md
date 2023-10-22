@@ -6,6 +6,8 @@
 
 Курс описывает наиболее часто используемые команды git, взятые из опыта реальных проектов. Даются примеры и интерактивные задачи.
 
+---
+
 - [**Введение**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git/Cubit/Git%20Basics/1.%20Introduction)
 - [**Использование существующих репозиториев**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git/Cubit/Git%20Basics/2.%20Using%20existing%20repositories)
 - [**Обзор текущего состояния локального репозитория**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git/Cubit/Git%20Basics/3.%20Overview%20of%20the%20current%20state%20of%20the%20local%20repository)
