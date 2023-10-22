@@ -5,6 +5,12 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/1200px-Bash_Logo_Colored.svg.png" width="90"/>
 </div>
 
+- [**Bash**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash)
+  - [**Ksendzov**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Ksendzov)
+    - [**Terminal_HW1**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Ksendzov/Terminal_HW1)
+    - [**Terminal_HW2**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Ksendzov/Terminal_HW2)
+  - [**Stepik**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Stepik)
+    - [**Introduction to Linux | Введение в Linux**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Stepik/Introduction%20to%20Linux)
 - [**Git**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git)
   - [**Cubit**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git/Cubit)
     - [**Git Basics | Основы Git**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git/Cubit/Git%20Basics)
@@ -13,9 +19,3 @@
   - [**Ksendzov**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git/Ksendzov)
     - [**Git_HW1**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git/Ksendzov/Git_HW1)
     - [**Git_HW2**](https://github.com/vypiemzalyubov/git-bash/tree/main/Git/Ksendzov/Git_HW2)
-- [**Bash**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash)
-  - [**Ksendzov**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Ksendzov)
-    - [**Terminal_HW1**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Ksendzov/Terminal_HW1)
-    - [**Terminal_HW2**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Ksendzov/Terminal_HW2)
-  - [**Stepik**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Stepik)
-    - [**Introduction to Linux | Введение в Linux**](https://github.com/vypiemzalyubov/git-bash/tree/main/Bash/Stepik/Introduction%20to%20Linux)
