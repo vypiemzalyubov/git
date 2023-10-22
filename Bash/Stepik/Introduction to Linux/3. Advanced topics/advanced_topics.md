@@ -42,7 +42,7 @@ chmod + script1.sh
 ```
 Ссылка на скрипт [script1.sh](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics/script1.sh)
 
-### Скрипты на bash: ветвления и циклы
+### Скрипты на bash: ветвления и циклы I
 
 Напишите скрипт на bash, который принимает на вход один аргумент (целое число от 0 до бесконечности), который будет обозначать число студентов в аудитории. В зависимости от значения числа нужно вывести разные сообщения. 
 
@@ -81,3 +81,42 @@ chmod + script2.sh
 ./script2.sh
 ```
 Ссылка на скрипт [script2.sh](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics/script2.sh)
+
+### Скрипты на bash: ветвления и циклы II
+
+Напишите скрипт на bash, который будет определять в какую возрастную группу попадают пользователи. При запуске скрипт должен вывести сообщение "enter your name:" и ждать от пользователя ввода имени (используйте `read`, чтобы прочитать его). Когда имя введено, то скрипт должен написать "enter your age:" и ждать ввода возраста (опять нужен `read`). Когда возраст введен, скрипт пишет на экран "<Имя>, your group is <группа>", где <группа> определяется на основе возраста по следующим правилам:
+- младше либо равно 16: "child",
+- от 17 до 25 (включительно): "youth",
+- старше 25: "adult".
+
+После этого скрипт опять выводит сообщение "enter your name:" и всё начинается по новой (бесконечный цикл!). Если в какой-то момент работы скрипта будет введено пустое имя или возраст 0, то скрипт должен написать на экран "bye" и закончить свою работу (выход из цикла!).
+
+```bash
+vim script3.sh
+
+#!/bin/bash
+
+while true
+do
+    echo enter your name:; read name
+    [ -z $name ] && break
+    
+    echo enter your age:; read age
+    [ $age -eq 0 ] && break
+    
+    if (( $age < 17 )); then
+        group=child
+    elif (( $age > 25 )); then
+        group=adult
+    else
+        group=youth
+    fi
+    
+    echo "$name, your group is $group"
+done
+echo bye
+
+chmod + script3.sh
+./script3.sh
+```
+Ссылка на скрипт [script3.sh](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics/script3.sh)
