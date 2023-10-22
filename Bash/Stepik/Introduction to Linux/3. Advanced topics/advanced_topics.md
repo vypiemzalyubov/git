@@ -173,3 +173,74 @@ chmod + script4.sh
 ./script4.sh
 ```
 Ссылка на скрипт [script4.sh](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics/script4.sh)
+
+### Скрипты на bash: разное II
+
+Напишите калькулятор на bash. При запуске ваш скрипт должен ожидать ввода пользователем команды (при этом на экран выводить ничего не нужно). Команды могут быть трех типов: 
+- Слово "exit". В этом случае скрипт должен вывести на экран слово "bye" и завершить работу. 
+- Три аргумента через пробел - первый операнд (целое число), операция (одна из "+", "-", "*", "/", "%", "**") и второй операнд (целое число). В этом случае нужно произвести указанную операцию над заданными числами и вывести результат на экран. После этого переходим в режим ожидания новой команды.
+- Любая другая команда из одного аргумента или из трех аргументов, но с операцией не из списка. В этом случае нужно вывести на экран слово "error" и завершить работу.
+
+Чтобы проверить работу скрипта, вы можете записать сразу несколько команд в файл и передать его скрипту на stdin (т.е. выполнить `./script.sh < input.txt`). В этом случае он должен вывести сразу все ответы на экран.
+
+Например, если входной файл будет следующего содержания:
+```bash
+10 + 1
+2 ** 10
+exit
+```
+то на экране будет:
+```bash
+11
+1024
+bye
+```
+Если же на вход поступит следующий файл:
+```bash
+3 - 5
+2/10
+exit
+```
+то на экране будет:
+```bash
+-2
+error
+```
+т.к. вторая команда была некорректной (в ней всего один аргумент, т.к. нет пробелов между числами и операцией, а единственная допустимая команда из одного аргумента это "exit").
+
+```bash
+vim script5.sh
+```
+```bash
+#!/bin/bash
+
+while [[ True ]]
+do
+  read birinchi amal ikkinchi
+  if [[ $birinchi == "exit" ]]
+  then
+    echo "bye"
+    break
+  elif [[ "$birinchi" =~ "^[0-9]+$" && "$ikkinchi" =~ "^[0-9]+$" ]]
+  then
+    echo "error"
+    break
+  else
+    case $amal in
+"+") let "result = birinchi + ikkinchi";;
+"-") let "result = birinchi - ikkinchi";;
+"/") let "result = birinchi / ikkinchi";;
+"*") let "result = birinchi * ikkinchi";;
+"%") let "result = birinchi % ikkinchi";;
+"**") let "result = birinchi ** ikkinchi";;
+*) echo "error" ; break ;;
+    esac
+    echo "$result"
+  fi
+done
+```
+```bash
+chmod + script5.sh
+./script5.sh
+```
+Ссылка на скрипт [script5.sh](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics/script5.sh)
