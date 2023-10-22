@@ -31,12 +31,15 @@ Arguments are: $1=первый_аргумент $2=второй_аргумент
 
 ```bash
 vim script1.sh
-
+```
+```bash
 #!/bin/bash
+
 var1=$1
 var2=$2
 echo "Arguments are: \$1=${1} \$2=${2}"
-
+```
+```bash
 chmod + script1.sh
 ./script1.sh
 ```
@@ -67,7 +70,8 @@ chmod + script1.sh
 
 ```bash
 vim script2.sh
-
+```
+```bash
 #!/bin/bash
 
 case $1 in
@@ -76,7 +80,8 @@ case $1 in
 	2 | 3 | 4 ) echo "$1 students";;
 	*) echo "A lot of students";;
 esac
-
+```
+```bash
 chmod + script2.sh
 ./script2.sh
 ```
@@ -93,7 +98,8 @@ chmod + script2.sh
 
 ```bash
 vim script3.sh
-
+```
+```bash
 #!/bin/bash
 
 while true
@@ -115,7 +121,8 @@ do
     echo "$name, your group is $group"
 done
 echo bye
-
+```
+```bash
 chmod + script3.sh
 ./script3.sh
 ```
@@ -133,7 +140,8 @@ chmod + script3.sh
 
 ```bash
 vim script4.sh
-
+```
+```bash
 #!/bin/bash
 
 gcd ()
@@ -160,7 +168,8 @@ while [[ true ]]; do
     read M N
     gcd $M $N
 done
-
+```
+```bash
 chmod + script4.sh
 ./script4.sh
 ```
