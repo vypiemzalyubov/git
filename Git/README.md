@@ -1,5 +1,5 @@
 # Git
 
 <div id="header" align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png" width="100"/>
+  <img src="https://kossoff.ru/sites/kossoff.ru/files/styles/in_article/public/field/image/Git-Icon-1788C.png?itok=xnhD98xZ" width="90"/>
 </div>
