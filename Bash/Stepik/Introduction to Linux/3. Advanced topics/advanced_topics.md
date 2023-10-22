@@ -40,6 +40,7 @@ echo "Arguments are: \$1=${1} \$2=${2}"
 chmod + script1.sh
 ./script1.sh
 ```
+Ссылка на скрипт [script1.sh](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics/script1.sh)
 
 ### Скрипты на bash: ветвления и циклы
 
@@ -79,3 +80,4 @@ esac
 chmod + script2.sh
 ./script2.sh
 ```
+Ссылка на скрипт [script2.sh](https://github.com/vypiemzalyubov/git-bash/blob/main/Bash/Stepik/Introduction%20to%20Linux/3.%20Advanced%20topics/script2.sh)
