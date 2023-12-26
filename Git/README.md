@@ -5,6 +5,6 @@
 </div>
 
 **Git CheatSheet:** 
-- [Flight rules for Git](https://github.com/k88hudson/git-flight-rules/blob/master/README_ru.md)
 - [Git Book](https://git-scm.com/book/ru/v2)
+- [Flight rules for Git](https://github.com/k88hudson/git-flight-rules/blob/master/README_ru.md)
 - [Шпаргалка по консольным командам Git](https://github.com/cyberspacedk/Git-commands)
