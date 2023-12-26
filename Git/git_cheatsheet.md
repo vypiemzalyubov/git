@@ -107,4 +107,6 @@ git log
 git push --force
 ```
 
-**More information:** [Flight rules for Git](https://github.com/k88hudson/git-flight-rules/blob/master/README_ru.md)
+**More information:** 
+- [Flight rules for Git](https://github.com/k88hudson/git-flight-rules/blob/master/README_ru.md)
+- [Git Book](https://git-scm.com/book/ru/v2)
